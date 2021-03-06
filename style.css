@@ -1,0 +1,119 @@
+      @font-face {
+        font-family: "title";
+        src: url("/title.ttf");
+      }
+      body {
+        background-image: url("/img/wallpaper.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #a716ff;
+        height: 100%;
+        color: #383639;
+      }
+      html {
+        cursor: url('cursor.cur'), auto;
+      }
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+  transition: none;
+}
+      img {
+        max-width: 80px;
+        max-height: 80px;
+        margin: 10px;
+      }
+      .header {
+        font-family: 'title', sans-serif;
+        text-align: center;
+        font-size: 10vw;
+        margin: 5px;
+      }
+     .smaller {
+        font-family: 'title', sans-serif;
+        text-align: center;
+        font-size: 35px;
+        margin: 0px;
+      }
+     .ip {
+        background-color: gray;
+        color: white;
+        border-radius: 5px;
+        padding: 4px;
+      }
+      .center {
+        text-align: center;
+      }
+      .nav {
+        height: 10%;
+        display: flex;
+        flex-direction: row;
+        background-color: #e2b2ff;
+        justify-content: center;
+      }
+      .nav-button {
+        color: inherit;
+        font-family: 'title', sans-serif;
+        padding-left: 10px;
+        height: 1.5em;
+        margin: 10px;
+      }
+      a {
+        color: purple;
+        text-decoration: none;
+        transition: .3s;
+      }
+      a:hover {
+        cursor: url('cursorclick.cur'), auto;
+        color: red;
+      }
+      p {
+        color: #adadad;
+      }
+      .a {
+        color: purple;
+        text-decoration: none;
+        transition: .3s;
+      }
+      .a:hover {
+        color: red;
+      }
+      .dropdown {
+        visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.4s linear;
+        position: absolute;
+        background-color: #e2b2ff;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        
+      }
+      .dropdownbutton:hover .dropdown {
+        visibility: visible;
+  opacity: 1;
+      }
+      .latestuser {
+        display: flex;
+
+      }
+      .latest {
+        background-color: #e2b2ff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      .next {
+        background-color: #e2b2ff;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+

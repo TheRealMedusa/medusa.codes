@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Not Found</title>
+	<style>
+a:hover { cursor: url('cursorclk.cur'), auto;}
+h1:hover { cursor: url('cursortext.cur'), auto;}
+.text:hover { cursor: url('cursortext.cur'), auto;}
+h2:hover { cursor: url('cursortext.cur'), auto;}
+.smaller { cursor: url('cursortext.cur'), auto;}
+
+		body {
+      cursor: url('cursor.cur'), auto;
+			margin: 0;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #ececec;
+			font-family: monospace;
+		}
+
+		.err-box {
+			background: #fff;
+			padding: .005em;
+			max-width: 30em;
+			width: 100vw;
+		}
+
+		.message {
+			display: flex;
+			flex-direction: row;
+		}
+
+		@media (max-width: 500px) {
+			.message {
+				flex-direction: column;
+				align-items: center;
+			}
+		}
+
+		.eval-bot {
+			width: 30%;
+			margin: 1em;
+		}
+
+		.console {
+			background-color: #0e1628;
+			color: #fff;
+			font-family: monospace;
+			padding: 1em;
+			margin: 1em;
+		}
+    .info-box {
+      padding: .5px;
+      align-items: center;
+    }
+	</style>
+
+  <script>
+     var reload_timeout = setTimeout(function() {
+       window.location.reload();
+     }, 60000)
+  </script>
+</head>
+
+<body>
+	<div class="err-box">
+		<div class="message">
+			<div class="eval-bot">
+				<a href="https://medusa.codes">
+  <img src="404.gif"
+       alt="Return to medusa.codes">
+</a>
+			</div>
+			<div class="info-box">
+				<h1> 404 Not Found</h1>
+				<h2></h2>
+			</div>
+		</div>
+		
+		<div>
+			<div class="text" >Return to <a href="https://medusa.codes">Medusa Codes</a>?</div>
+		</div>
+	</div>
+</body>
+
+</html>
