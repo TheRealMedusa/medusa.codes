@@ -1,0 +1,1 @@
+<canvas class="skin-3d drop-shadow auto-size align-top" width="270" height="360" style="cursor:move;width:270px;height:360px;" data-skin-hash="9913fd45265acfcf" data-model="slim" data-flip="false" data-animate="false" data-cape-hash=""></canvas>
