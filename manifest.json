@@ -1,0 +1,8 @@
+{
+  "name": "Medusa.Codes",
+  "short_name": "Medusa.Codes",
+  "start_url": ".",
+  "background_color": "#B720FF",
+  "theme_color": "#B720FF",
+  "display": "standalone"
+}
