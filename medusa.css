@@ -1,0 +1,44 @@
+/**
+ * @name         Medusa's Better Theme
+ * @description  This is Medusa's Better Discord Theme
+ * @author       TheRealMedusa
+ * @version      1.1
+ */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/drag.css"; /* 🧪 Adds a general drag zone for the background. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/status.css"; /* ✔️ Old Status */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/discolored.css"; /* ✔️ This replaces discord's SVGs with a colored version. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/bad-http.css"; /* ✔️ Links without SSL encryption are displayed in red. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/minimal-panel.css"; /* ✔️ Adds a Hover effects for the panel menu automatically (Spotify, Voice, Games...). */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/folder-color.css"; /* ✔️ This changes the folder color & shows the normal version on hover. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/addons/neutral-usernames.css"; /* ✔️ Usernames are displayed in the accent color of the theme. (only light theme) */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/blur-details.css"; /* ❌ Blur on Details */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/blur-spoiler.css"; /* ❌ Blur on Spoiler */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/blur-link.css"; /* ❌ Blur on Links */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/addons/no-spotify.css"; /* ❌ No Spotify */
+
+/*@import "https://corellanstoma.github.io/CreArts-Discord/animations/ping.css"; /* ❌ This adds a ping animation. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/spotify.css"; /* ✔️ This adds a cover spin animation to the spotify panel. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/avatar.css"; /* ✔️ This adds a hover animation to the avatar. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/icons.css"; /* ✔️ This adds a hover animation to the icons. */
+
+@import "https://corellanstoma.github.io/CreArts-Discord/animations/clickable.css"; /* ✔️ This adds a hover animation to the icons. */
+
+@import url(/font.css);/* Localized fonts */
+@import url(/font.css);
+:root {
+    --font-primary: 'minecraftia';
+}

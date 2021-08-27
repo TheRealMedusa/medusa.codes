@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Initializing · solo.to</title>
+<meta property="og:title" content="Initializing · solo.to">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#3673FC">
+<link href="https://solo.to/images/logo/solo-favicon.png" rel="shortcut icon" type="image/x-icon">
+<style>
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  min-height: 100%;
+  background-color: #f4f4f7;
+  font-family: Graphik, sans-serif;
+  color: #1a1a1a;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+svg {
+  width: 100px;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-left: auto;
+}
+svg path {
+  --total-length: 136px;
+  stroke-linecap: round;
+  stroke-width: 6;
+  stroke: #3673fc;
+  fill: none;
+  stroke-dasharray: var(--total-length) var(--total-length);
+  animation: circle 3s cubic-bezier(0, .2, .6, .85) infinite;
+}
+@keyframes circle {
+  0% {
+    stroke-dashoffset: calc(-1 * var(--total-length));
+  }
+  300%, 50% {
+    stroke-dashoffset: 0;
+  }
+  80%, 100% {
+    stroke-dashoffset: var(--total-length);
+  }
+}
+h1 {
+  display: none;
+}
+.wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 320px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  text-align: center;
+}
+.paragraph {
+  font-size: 15px;
+  line-height: 1.6em;
+  margin-bottom: 80px;
+}
+@font-face {
+  font-family: 'Graphik';
+  src: url('https://cdx.solo.to/fonts/Graphik-Regular-Gr-Web.woff2') format('woff2'),
+       url('https://cdx.solo.to/fonts/Graphik-Regular-Gr-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="content">
+      <svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 59"><path d="M55.42 25.14C55.64 26.48 55.75 27.85 55.75 29.25C55.75 43.27 44.46 54.61 30.5 54.61C16.54 54.61 5.25 43.27 5.25 29.25C5.25 15.23 16.54 3.89 30.5 3.89 C34.8 3.89 38.84 4.97 42.38 6.86"/><path d="M44.28 33.78C44.04 32.45 43.9 31.08 43.88 29.68C43.64 15.66 54.73 4.13 68.69 3.9C82.65 3.66 94.13 14.8 94.37 28.82C94.61 42.84 83.52 54.36 69.56 54.6C65.26 54.68 61.19 53.67 57.62 51.84"/></svg>
+      <div class="paragraph">::IM_UNDER_ATTACK_BOX::</div>
+    </div>
+  </div>
+</body>
+</html>

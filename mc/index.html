@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<style type="text/css">
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ @font-face {font-family:"fuckin Minecraft";src:url("https://static.tumblr.com/4b8l2mx/9vTp4okct/1_minecraft-regular.woff") format("woff"),url("https://static.tumblr.com/4b8l2mx/2rsp4okcj/1_minecraft-regular.svg") format("svg");font-weight:normal;font-style:normal;}
+
+
+#s-m-t-tooltip {background:rgba(16,0,16,0.94);color:white;font-size:13px;padding:0.375em;max-width:400px;text-shadow:0.125em 0.125em 0 #3F3F3F;z-index:999999;margin:-25px 0 0 25px;border:0.125em solid #2D0A63;border-image:linear-gradient(rgba(80,0,255,0.31),rgba(40,0,127,0.31)) 1;-webkit-border-radius: 4px;
+border-radius: 4px;}
+
+body {font-family:"fuckin Minecraft",sans-serif;font-size:14px;color:#404040;background:rgba(16,0,16,0.94);}
+body, a, a:hover {cursor: url("/cursor.cur"), auto;}
+
+aside {width:178px;position:fixed;left:50%;margin-left:-540px;margin-top:50px;background:#c6c6c6;padding:10px;border:4px solid black;-webkit-border-radius: 4px;
+border-radius: 4px;border-top-color:#e2e2e2;border-left-color:#e2e2e2;border-right-color:#565656;border-bottom-color:#565656;-webkit-box-shadow:1px 1px 0.1px black, -1px -1px 0.1px black, 1px -1px 0.1px black, -1px 1px 0.1px black;box-shadow:1px 1px 0.1px black, -1px -1px 0.1px black, 1px -1px 0.1px black, -1px 1px 0.1px black;}
+aside table {padding:0;margin:0;}
+aside table td {display:block;height:30px;width:30px;background:#8b8b8b;border-top:2px solid #585858;border-left:2px solid #585858;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;margin-right:1px;}
+aside td.portrait {background:black;height:134px;width:100px;margin:0;;display:table-cell;}
+aside td.portrait a {display:block;height:100%;width:100%;background:url("mc.png") center;background-size:cover;}
+aside .desc {text-align:center;margin-top:10px;max-height:112px;overflow-y:auto;overflow-x:hidden;}
+aside .paginav {float:right;margin-top:-73px;margin-right:-2px;}
+aside .paginav a {display:block;height:30px;width:30px;background:#8b8b8b;border-top:2px solid #585858;border-left:2px solid #585858;border-bottom:1px solid #e6e6e6;border-right:1px solid #e6e6e6;margin-right:1px;margin-top:2px;}
+	aside .paginav a:hover, aside table td:hover, article .content:hover {background-color:#c5c5c5;}
+	aside table td.portrait:hover {background-color:black;}
+
+/* Icons */
+aside a.home {background:url("https://static.tumblr.com/xsypwja/bSPqjkqhc/dark_pant.png") center center no-repeat;display:block;height:30px;width:30px;}
+aside a.ask {background:url("https://static.tumblr.com/4b8l2mx/kDvp2n9i5/paper.png") center center no-repeat;display:block;height:30px;width:30px;}
+aside a.about {background:url("https://static.tumblr.com/4b8l2mx/mkwp2n9ic/sign.png") center center no-repeat;display:block;height:30px;width:30px;}
+aside a.archive {background:url("https://static.tumblr.com/xsypwja/YVUqjkp4c/f0plnkd_2x.png") center center no-repeat;display:block;height:30px;width:30px;}
+
+
+
+::-moz-selection { 
+background-color: #FFFFFF; 
+color: #5555FF;
+}
+
+::selection {
+background-color: #FFFFFF;
+color: #5555FF;
+}
+</style>
+
+<link href="https://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="https://static.tumblr.com/rzl30kg/eAxm7a751/jquery.style-my-tooltips.js"></script>
+<script>
+     (function($){
+         $(document).ready(function(){
+             $("[title]").style_my_tooltips({ 
+    tip_follows_cursor:true,
+    tip_delay_time:200,
+    tip_fade_speed:300,
+    attribute:"title"
+});
+         });
+     })(jQuery);
+ </script>
+ </head>
+<body>
+<aside>
+<table>
+<tr><td><a href="/" class="home" title="Home"></a></td><td class="portrait" rowspan="4"><a href="/"></a></td></tr>
+<tr><td><a href="/ask" class="ask" title="Ask"></a></td></tr>
+<tr><td><a href="/submit" class="about" title="Submit"></a></td></tr>
+<tr><td><a href="/archive" class="archive" title="Archive"></a></td></tr></table>
+
+
+<div class="desc">TheRealMedusa</div>
+</aside>
+
+</body>
